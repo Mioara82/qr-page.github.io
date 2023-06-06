@@ -1,0 +1,65 @@
+html, body{
+	margin:0;
+	padding:0;
+}
+
+.black-margin{
+	background-color: black;
+	height:80px;
+}
+
+.black-margin.top {
+	margin-top: 50px; 
+}
+
+.flex-section{
+	background-color:#87A7AE ;
+	min-height: calc(100vh - 100px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin:auto;
+	border-radius: 25px;
+	background-color: whitesmoke;
+	max-width: 15%;
+	max-height:40%;
+	transform: translate(30px,30px);
+}
+
+
+ img{
+	max-height: 90%;
+	max-width: 90%;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+ .text{
+	font-family: Arial;
+	font-size: 0.9em;
+	font-weight: 700;
+	margin: 20px;
+	flex-grow: 1;
+
+}
+
+ .text-sub{
+	font-weight: 200;
+	font-size: 0.75em;
+	margin-top: no margin;
+	margin-bottom:20px;
+	margin-right:20px;
+	margin-left:20px;
+	opacity: 0.7;
+}
+
+.black-margin .bottom{
+	margin-bottom: 70px; 
+}
