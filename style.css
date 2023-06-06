@@ -3,18 +3,9 @@ html, body{
 	padding:0;
 }
 
-.black-margin{
-	background-color: black;
-	height:80px;
-}
-
-.black-margin.top {
-	margin-top: 50px; 
-}
-
 .flex-section{
 	background-color:#87A7AE ;
-	min-height: calc(100vh - 100px);
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -28,9 +19,8 @@ html, body{
 	margin:auto;
 	border-radius: 25px;
 	background-color: whitesmoke;
-	max-width: 15%;
+	max-width: 15rem;
 	max-height:40%;
-	transform: translate(30px,30px);
 }
 
 
@@ -58,8 +48,4 @@ html, body{
 	margin-right:20px;
 	margin-left:20px;
 	opacity: 0.7;
-}
-
-.black-margin .bottom{
-	margin-bottom: 70px; 
 }
