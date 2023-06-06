@@ -3,7 +3,6 @@ html, body{
 	padding:0;
 }
 
-
 .flex-section{
 	background-color:#87A7AE ;
 	min-height: 100vh;
@@ -22,7 +21,6 @@ html, body{
 	background-color: whitesmoke;
 	max-width: 15rem;
 	max-height:40%;
-	/*transform: translate(40px,30px);*/
 }
 
 
